@@ -1,0 +1,80 @@
+nav {
+    display: flex;
+    background-color: aqua;
+    justify-content: space-evenly;
+    height: 60px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+ul li {
+    list-style: none;
+    font-size: 20px;
+}
+
+.fa-circle-user {
+    align-self: center;
+    font-size: 30px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(https://wallpapercave.com/wp/wp8998133.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 190vh;
+}
+
+#main-title {
+    text-align: center;
+    margin: 5px auto;
+    color: #F8EEEC;
+    font-weight: bold;
+    background-color: black;
+}
+
+.col-md-8 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.d-flex {
+    /* margin-top: 50px; */
+    width: 50%;
+    /* margin-left: 25%;
+    margin-right: 25%; */
+}
+
+#card-area {
+    width: 90%;
+    height: 70%;
+    border-radius: 5px;
+    background-color: rgba(0, 0 , 0, 80%);
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    place-items: center;
+}
+
+.card {
+    margin: 1rem;
+}
+
+.card-title {
+    font-size: 15px;
+}
+
+.card-img, .card-img-top {
+    height: 309px;
+    }
+
